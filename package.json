@@ -1,0 +1,44 @@
+{
+  "name": "browsermap",
+  "title": "Apache DeviceMap BrowserMap",
+  "version": "1.4.1",
+  "description": "YABFDL - yet another browser features detection library",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "homepage" : "http://incubator.apache.org/devicemap/",
+  "repository" : {
+    "type": "git",
+    "url": "git@github.com:apache/devicemap-browsermap.git"
+  },
+  "author": {
+    "name": "The Apache DeviceMap team"
+  },
+  "bugs": {
+    "url" : "https://issues.apache.org/jira/browse/DMAP"
+  },
+  "license": {
+    "type": "Apache License",
+    "url": "http://www.apache.org/licenses/LICENSE-2.0"
+  },
+  "keywords" : [
+    "devicemap",
+    "browser features detection",
+    "probing"
+  ],
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-compress": "~0.5.2",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-uglify": "~0.2.4",
+    "grunt-jsdoc": "~0.4.1",
+    "grunt-karma": "~0.6.2",
+    "grunt-qunit-istanbul": "~0.4.5",
+    "karma": "~0.10.2",
+    "karma-qunit": "~0.1.1",
+    "karma-junit-reporter": "~0.1.0"
+  }
+}
